@@ -1,0 +1,12 @@
+.f1{
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: antiquewhite;
+
+}
+body{
+    background-color: lightblue;
+}
+.a1:hover , .a2:hover{
+    color:red;
+    text-decoration:none;
+}
