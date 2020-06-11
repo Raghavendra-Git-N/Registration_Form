@@ -1,5 +1,6 @@
 body{
-    background-image: url("../images/3.jpg");
+    /*background-image: url("../images/3.jpg");*/
+    background-color:lightblue;
     background-size:100%;
     
 }    
