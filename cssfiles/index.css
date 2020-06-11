@@ -1,13 +1,17 @@
 body{
-    background-color:lightblue;
-}
+    background-image: url("images/3.jpg");
+    background-size:100%;
+    
+}    
 .D{
-    color:lightcoral;
-    text-decoration:underline;
-    border:1px solid black;
+    color:black;
+    border-bottom:5px solid black;
     border-width : inline ; 
 }
-
+a{
+    color:yellow;
+    font-size: 20px;
+}
 a:hover{
     color:red;
     text-decoration:none;
@@ -17,4 +21,11 @@ a:hover{
 }
 .form1{
     padding:5px;
+}
+.field{
+    padding:6px;
+}
+.fa{
+    color:white;
+    padding:15px;
 }

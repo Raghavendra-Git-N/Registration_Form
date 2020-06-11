@@ -4,9 +4,20 @@
 
 }
 body{
-    background-color: lightblue;
+    background-image: url("images/3.jpg");
+    background-size: 100%;
 }
 .a1:hover , .a2:hover{
     color:red;
     text-decoration:none;
 }
+.a2, .a1{
+    color: yellow;
+}
+.fa{
+    color:white;
+    font-size: 20px;
+}
+/*.f{
+    border-radius:2px;
+}*/
