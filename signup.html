@@ -3,34 +3,34 @@
     <head>
         <title>SIGN UP PAGE</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="cssfiles\signup.css">
-	<meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <meta name="viewport" content="width= device-width , initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="cssfiles\signup.css">
     </head>
     <body style="text-align: center;">
-        <h3>FOR NEW USERS</h3>
-        <p><i style="font-size: small;">IF YOU HAVE REGISTERED BEFORE &nbsp; &#8594; &nbsp; </i><a class="a1" href="index.html">click here </a></p>
+        <h3 style="color:white ; border-bottom:5px solid black; padding:10px;">FOR NEW USERS</h3>
+        <p><i style="font-size: large; color:white;">IF YOU HAVE REGISTERED BEFORE &nbsp; &#8594; &nbsp; </i><a class="a1" href="index.html">click here </a></p>
         <div class="D1">
-            <form  action="signup.php" method="post" style="text-align: center;" style="display:inline">
-                <fieldset class="f1" style="display:inline">
-                    <h4>SIGN UP</h4><hr>
+            <form class="fa" action="signup.php" method="post" style="text-align: center;" style="display:inline">
+               <!--<fieldset class="f1" style="display:inline">-->
+                    <h4>SIGN UP</h4>
                     <br>
-                    <label for="fname">&nbsp &nbsp &nbsp &nbsp First Name : </label>
-                    <input type="text" id="fname" name="firstName"  style="width:200px;" placeholder=" First Name" required> 
+                    <label for="fname">&nbsp &nbsp &nbsp  First Name : </label>
+                    <input class="f" type="text" id="fname" name="firstName"  style="height:20px ; width:200px;" placeholder=" First Name" required> 
                     <br><br>
-                    <lable for="lname">&nbsp &nbsp &nbsp &nbspLast Name : </lable>
-                    <input type="text" id="lname" name="LastName" style=" width:200px" placeholder=" Last Name">
+                    <lable for="lname">&nbsp &nbsp &nbsp &nbspLast Name :  </lable>
+                    <input class="f" type="text" id="lname" name="LastName" style="height:20px ; width:200px;" placeholder=" Last Name">
                     <br><br>
                     <lable for="email"> &nbsp &nbsp &nbsp &nbsp &nbsp Email ID  : </lable>
-                    <input type="email" id="email" name="email" style="width:200px"placeholder=" Email ID" required>
+                    <input class="f" type="email" id="email" name="email" style="height:20px ; width:200px;" placeholder=" Email ID" required>
                     <br><br>
                     <lable for="password">&nbsp &nbsp &nbsp &nbsp Password :</lable>
-                    <input type="password" id="password" name="Password" style="width:200px;" required placeholder=" Password"> 
+                    <input class="f" type="password" id="password" name="Password" style="height:20px ; width:200px;" required placeholder=" Password"> 
                     <br><br>
                     <label for="Phone No">  Phone Number :</label>
-                    <input type="tel" id="Phone No" name="PhoneNo" style="width:200px" required placeholder=" Phone Number">
+                    <input  class="f" type="tel" id="Phone No" name="PhoneNo" style="height:20px ; width:200px;" required placeholder=" Phone Number">
                     <br><br>
                     <lable for="DOB">&nbsp Date Of Birth : </lable>
-                    <input type="date" id="DOB" name="DateOfBirth" style="width:200px" required>
+                    <input class="f" type="date" id="DOB" name="DateOfBirth" style="height:20px ; width:200px;" required>
                     <br><br>
                     <!-- for radio button name must be same inorder to select only one -->
                     <input type="radio" id="female" name="gender" value="F">
